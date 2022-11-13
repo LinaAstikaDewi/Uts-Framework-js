@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> </title>
+</head>
+<body>
+	<div  id="isi"  class="isi"></div>
+	<div class="container">
+		<div id="lina"></div>
+	</div>
+
+
+	<script>
+		
+			const content	 = document.getElementById("isi");
+			
+			const Selamat = document.createElement("h1");
+			Selamat.textContent = "Selamat Ujian Framework Js";
+			content.appendChild(Selamat);
+
+
+			const nama = document.createElement("p");
+			nama.textContent ="nama : Lina AStika dewi";
+			content.appendChild(nama);
+
+
+			const nim = document.createElement("p");
+			nim.textContent ="nim : SI1720024";
+			content.appendChild(nim);
+
+
+			const jurusan = document.createElement("p");
+			jurusan.textContent ="jurusan : SISTEM INFORMASI";
+			content.appendChild(jurusan);
+
+
+			const tanggal_ujian = document.createElement("p");
+			tanggal_ujian.textContent ="tanggal_ujian : 11 November 2022";
+			content.appendChild(tanggal_ujian);
+
+
+			var myImage = new Image(300,300);
+			myImage.src ='lina.jpeg';
+			x = document.getElementById("lina");
+			x.appendChild(myImage);
+
+
+
+
+
+
+	</script>
+
+</body>
+</html>
